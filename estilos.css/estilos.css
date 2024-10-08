@@ -1,5 +1,8 @@
-  body {background-color: green;}
-.amarillo{color: yellow}
+  body{ background-image: url(../imagenes/comidita.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+.amarillo{color: black}
 .amarillo{text-align: justify;}
 .blanco{ color: white}
 .blanco{text-align: justify;}
@@ -11,3 +14,8 @@
 .subrayado{text-decoration-color: red}
 .subrayado{text-decoration-style: double;}
 .subrayado{font-size:xx-large }
+.bi{
+  font-size: 24px;
+Color:white;
+margin: 20px;}
+.bi:hover{color: black}
