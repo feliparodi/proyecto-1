@@ -1,3 +1,4 @@
+
   body{ background-image: url(../imagenes/comidita.jpg);
   background-repeat: no-repeat;
 background-attachment: fixed;
@@ -9,7 +10,8 @@ background-size: cover;}
 .centro{text-align: center;}
 .centro{text-decoration-line:underline;}
 .centro{text-decoration-color: red}
-.centro{text-decoration-style: double;}
+.centro{text-decoration-style: double;
+color: white}
 .subrayado{text-decoration-line:underline;}
 .subrayado{text-decoration-color: red}
 .subrayado{text-decoration-style: double;}
@@ -17,5 +19,19 @@ background-size: cover;}
 .bi{
   font-size: 24px;
 Color:white;
-margin: 20px;}
+margin: 20px;
+align-self: center;}
 .bi:hover{color: black}
+.parrafo{color: white;
+font-size: x-large}
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+footer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
