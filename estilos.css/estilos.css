@@ -16,19 +16,25 @@ color: white}
 .subrayado{text-decoration-color: red}
 .subrayado{text-decoration-style: double;}
 .subrayado{font-size:xx-large }
+.links:hover{
+  color:black;
+background-color: white;
+}
 .bi{
   font-size: 24px;
 Color:white;
 margin: 20px;
-align-self: center;}
+align-self: center;
+}
 .bi:hover{color: black}
 .parrafo{color: white;
-font-size: x-large}
+font-size: small}
 header{
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  align-items: center;
 }
 footer{
   display: flex;
