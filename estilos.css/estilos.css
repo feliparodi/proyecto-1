@@ -5,13 +5,13 @@ background-attachment: fixed;
 background-size: cover;}
 .amarillo{color: black}
 .amarillo{text-align: justify;}
-.blanco{ color: white}
-.blanco{text-align: justify;}
-.centro{text-align: center;}
-.centro{text-decoration-line:underline;}
-.centro{text-decoration-color: red}
-.centro{text-decoration-style: double;
+.blanco{ color: white; text-align: justify;
+}
+.centro{text-align: center;text-decoration-line:underline;
+text-decoration-color: red;
+text-decoration-style: double;
 color: white}
+
 .subrayado{text-decoration-line:underline;}
 .subrayado{text-decoration-color: red}
 .subrayado{text-decoration-style: double;}
@@ -40,4 +40,19 @@ footer{
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+}
+@media (max-widht: 576px) {
+  body {background-color: red;
+  }
+}
+@media (min-widht:768px) {
+  nav{ background-color: white;
+  font-size: xx-large}
+}
+@media (max-widht:1199px ) {
+.parrafo{ color: cyan;}
+}
+@media (max-widht: 767px) {
+  .centro {display: none;
+  }
 }
