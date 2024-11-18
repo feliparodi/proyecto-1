@@ -4,18 +4,19 @@
 background-attachment: fixed;
 background-size: cover;}
 .amarillo{color: white}
-.amarillo{text-align: justify;}
-.blanco{ color: white; text-align: justify;
+.amarillo{text-align: center;}
+.blanco{ color: white; text-align: center;
 }
 .centro{text-align: center;text-decoration-line:underline;
 text-decoration-color: red;
 text-decoration-style: double;
 color: white}
 
-.subrayado{text-decoration-line:underline;}
-.subrayado{text-decoration-color: red}
-.subrayado{text-decoration-style: double;}
-.subrayado{font-size:xx-large }
+.subrayado{text-decoration-line:underline;
+text-decoration-color: red;
+text-decoration-style: double;
+font-size:xx-large;
+text-align: center;}
 .links:hover{
   color:black;
 background-color: white;
@@ -56,3 +57,31 @@ footer{
   .centro {display: none;
   }
 }
+nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: large
+}
+.nav:hover{ color: black}
+.nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: xx-large;
+  margin: 20px
+}
+aside{ display: flex;
+
+  align-items: center;
+}
+.areas{ color: blue;
+background-color: white;
+text-decoration-line:underline;
+text-decoration-color: blue;
+text-decoration-style: double;
+font-size: xx-large;
+text-align: center;}

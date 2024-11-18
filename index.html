@@ -23,15 +23,17 @@
   <img  src="./imagenes/brawl.jpg" width="150"  >
   </header>
   <nav>
-    <p>Estas son algunas recetas similares para guiarse y la hoja de contactos</p>
     <a class="links" href="https://www.lavoz.com.ar/">click aqui 1</a>
     <a class="links"href="https://cookpad.com/">click aqui 2</a>
     <a class="links" href="https://www.clarin.com/">click aqui 3</a>
     <a class="links"href="https://libertaddigital.com.ar/">click aqui 4</a>
-    <a class="links"href="contactos.html"> pagina de contactos</a>
-
+    <div class="nav" id="nav">
+      <a href="#section">Nuetra receta u otras</a>
+      <a href="#aside">Videos explicativos</a>
+      <a href="#footer">Conocenos</a>
+    </div>
   </nav>
-  <section>
+  <section id="section">
     <h2 class="subrayado"> Ingredientes</h2>
     <ul>
       <li class="amarillo">12 choclos humeros enteros</li>
@@ -99,13 +101,12 @@
 
       </div>
   </section>
-  <aside class="derecha">
-    <img  src="./imagenes/humitas.jpg"width="500">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MbtSovxLuLo?si=ikeccWvypTg4yD4q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <aside id="aside">
+    <img  src="./imagenes/humitas.jpg"width="50%" height="600">
+    <iframe width="50%" height="600" src="https://www.youtube.com/embed/MbtSovxLuLo?si=ikeccWvypTg4yD4q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </aside>
-  <footer>
+  <footer id="footer">
   <button  onclick="datos1()"> Info personal</button>
-    <p class="parrafo"> Soy felipe Parodi, tengo 16 años , cree esta pagina yo mismo, mis aficiones son jugar al hockey e ir al gimnasio, vivo con mis abuelos y planeo covertirme en un licenciado en sistemas.</p>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <div class="redes sociales">
       <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
@@ -115,6 +116,9 @@
     </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1642.9299561322023!2d-58.7211944686785!3d-34.557102148248674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1729021099416!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </footer>
+      <div class="areas">
+      <a href="#nav"> HUMITAS</a>
+      </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="./javascript.js/javascript.js"></script>
 
