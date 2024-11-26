@@ -3,20 +3,10 @@
   background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;}
-.amarillo{color: white}
-.amarillo{text-align: center;}
+.amarillo{text-align: center; color: white;
+font-size: x-large}
 .blanco{ color: white; text-align: center;
-}
-.centro{text-align: center;text-decoration-line:underline;
-text-decoration-color: red;
-text-decoration-style: double;
-color: white}
-
-.subrayado{text-decoration-line:underline;
-text-decoration-color: red;
-text-decoration-style: double;
-font-size:xx-large;
-text-align: center;}
+font-size: x-large}
 .links:hover{
   color:black;
 background-color: white;
@@ -65,15 +55,16 @@ nav{
   align-items: center;
   font-size: large
 }
-.nav:hover{ color: black}
-.nav{
+.buscador{ display: flex;
   background-color: white;
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   font-size: xx-large;
-  margin: 20px
-}
+  margin: 20px;
+  padding: 20px;}
+  .buscador:hover{
+    color: green;
+  }
 aside{ display: flex;
 
   align-items: center;
@@ -85,3 +76,20 @@ text-decoration-color: blue;
 text-decoration-style: double;
 font-size: xx-large;
 text-align: center;}
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;color: white ;
+}
+.jaro-gross {
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: cyan;
+}
+.data{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
