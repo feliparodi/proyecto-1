@@ -1,12 +1,6 @@
+body{background-color: #FCF3CF
+}
 
-  body{ background-image: url(../imagenes/comidita.jpg);
-  background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;}
-.amarillo{text-align: center; color: white;
-font-size: x-large}
-.blanco{ color: white; text-align: center;
-font-size: x-large}
 .links:hover{
   color:black;
 background-color: white;
@@ -17,9 +11,7 @@ Color:white;
 margin: 20px;
 align-self: center;
 }
-.bi:hover{color: black}
-.parrafo{color: white;
-font-size: small}
+.bi:hover{color: blue}
 header{
   display: flex;
   justify-content: space-between;
@@ -27,9 +19,8 @@ header{
   flex-wrap: wrap;
   align-items: center;
 }
-footer{
+footer{ background-color: #34495E;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
 }
 @media (max-widht: 576px) {
@@ -47,49 +38,87 @@ footer{
   .centro {display: none;
   }
 }
-nav{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  align-items: center;
-  font-size: large
-}
 .buscador{ display: flex;
-  background-color: white;
+  background-color: #D0D3D4;
   justify-content: space-between;
-  flex-wrap: wrap;
   font-size: xx-large;
-  margin: 20px;
   padding: 20px;}
   .buscador:hover{
     color: green;
   }
-aside{ display: flex;
-
-  align-items: center;
-}
-.areas{ color: blue;
-background-color: white;
+.areas{ font-family: "Barlow Condensed", sans-serif;
+font-weight: 300px;
+font-style: italic;
+font-size: xx-large;
+color: white;;
+background-color: #34495E;
 text-decoration-line:underline;
 text-decoration-color: blue;
 text-decoration-style: double;
 font-size: xx-large;
-text-align: center;}
+text-align: center;
+display: flex;
+justify-content: space-around;}
 .titillium-web-extralight {
   font-family: "Titillium Web", sans-serif;
   font-weight: 200;
-  font-style: normal;color: white ;
+  font-style: normal;color: 
 }
 .jaro-gross {
   font-family: "Jaro", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: cyan;
+  color: black;
 }
-.data{
+
+.exo-2-letra {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
+}
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300px;
+  font-style: italic;
+  font-size: xx-large;
+
+}
+.card{
+height: 332px;
+width: 310px;}
+.card-img-top{
+  height: 212px;
+  width: 309px;
+}
+#container{
+  display:flex;
+  justify-content: space-around;
+}
+#tipos{
+  text-align: center;
+}
+#exo-white{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300px;
+  font-style: italic;
+  font-size: xx-large;
+  color: white;
+}
+#exo-title{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300px;
+  font-style: italic;
+  font-size: xx-large;
+  color: white:}
+  a{color: white;
+  }
+.form{display: flex;
+justify-content: center;
+background-color: #34495E;
+}
+.modo{
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
 }
